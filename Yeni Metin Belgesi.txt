@@ -1,0 +1,3 @@
+git uzaktan başlangıç ​​noktası ekle https://github.com/yvz55/asd.git
+ git şube -M ana 
+git Push -u başlangıç ​​noktası ana

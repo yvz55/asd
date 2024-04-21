@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geri Sayım Uygulaması</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Geri Sayım Uygulaması</h1>
+        <form id="countdownForm">
+            <label for="targetDate">Hedef Tarih ve Saat:</label>
+            <input type="datetime-local" id="targetDate" required>
+            <button type="submit">Geri Sayımı Başlat</button>
+        </form>
+        <p id="countdown"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
